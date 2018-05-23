@@ -26,7 +26,7 @@ print(type(data))
 # <class 'bytes'>
 
 with open('download/stats_data_{}_header.csv'.format(p['statsDataId']), 'w') as f:
-    f.writelines(data.decode())
+    f.write(data.decode())
 
 p['sectionHeaderFlg'] = 2
 
@@ -37,4 +37,4 @@ with urllib.request.urlopen(url) as response:
     data = response.read()
 
 with open('download/stats_data_{}.csv'.format(p['statsDataId']), 'w') as f:
-    f.writelines(data.decode().split('\n', 1)[1])
+    f.write(data.decode().split('\n', 1)[1])

@@ -59,9 +59,9 @@ def save_data_csv(param, stats_data_id=None, dir_path='.', filename=None,
         data = get_data_csv(param).decode()
         with open(path, 'w') as f:
             if del_first_line:
-                f.writelines(data.split('\n', 1)[1])
+                f.write(data.split('\n', 1)[1])
             else:
-                f.writelines(data)
+                f.write(data)
 
 
 def save_data_csv_multi(param, ids, dir_path='.', filename_words=None, sep='_',

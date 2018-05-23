@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# downloaded data
+download/*
+!.gitkeep
+
+# secret
+setting/app_id.json

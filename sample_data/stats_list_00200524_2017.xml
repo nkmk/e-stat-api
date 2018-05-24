@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GET_STATS_LIST xsi:noNamespaceSchemaLocation="https://api.e-stat.go.jp/rest/2.1/schema/GetStatsList.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RESULT>
+        <STATUS>0</STATUS>
+        <ERROR_MSG>正常に終了しました。</ERROR_MSG>
+        <DATE>2018-05-24T19:40:37.212+09:00</DATE>
+    </RESULT>
+    <PARAMETER>
+        <LANG>J</LANG>
+        <SURVEY_YEARS>2017</SURVEY_YEARS>
+        <STATS_CODE>00200524</STATS_CODE>
+        <DATA_FORMAT>X</DATA_FORMAT>
+    </PARAMETER>
+    <DATALIST_INF>
+        <NUMBER>21</NUMBER>
+        <RESULT_INF>
+            <FROM_NUMBER>1</FROM_NUMBER>
+            <TO_NUMBER>21</TO_NUMBER>
+        </RESULT_INF>
+        <TABLE_INF id="0003215840">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="001">年齢（各歳），男女別人口及び人口性比－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>816</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>年齢（各歳），男女別人口及び人口性比－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215841">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="002">年齢（５歳階級），男女，月別人口－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>2106</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>年齢（５歳階級），男女，月別人口－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215842">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="003">年齢（５歳階級），男女別人口及び割合－総人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>810</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>年齢（５歳階級），男女別人口及び割合－総人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215843">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="004">都道府県，男女別人口及び人口性比－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>384</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県，男女別人口及び人口性比－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215844">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="005">都道府県，男女別人口－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>1440</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-12</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県，男女別人口－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215845">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="006">都道府県別人口の割合－総人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>240</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-12</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県別人口の割合－総人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215846">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="007">都道府県別人口増減率－総人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>240</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県別人口増減率－総人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215847">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="008">都道府県別自然増減率－総人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>240</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県別自然増減率－総人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215848">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="009">都道府県別社会増減率－総人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>240</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県別社会増減率－総人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215849">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="010">都道府県，年齢（5歳階級），男女別人口－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>5472</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県，年齢（5歳階級），男女別人口－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215850">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="011">都道府県，年齢（3区分），男女別人口－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>1728</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県，年齢（3区分），男女別人口－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215851">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="012">都道府県，年齢（3区分），男女別人口の割合－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>1728</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県，年齢（3区分），男女別人口の割合－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215852">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="013">都道府県，男女別年齢構造指数－総人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>576</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>都道府県，男女別年齢構造指数－総人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215863">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="014">参考表　男女別人口の計算表－総人口，日本人人口，外国人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>87</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>参考表　男女別人口の計算表－総人口，日本人人口，外国人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215864">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="015">参考表　年齢（各歳），男女別人口の計算表－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>2490</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>参考表　年齢（各歳），男女別人口の計算表－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215865">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="016">参考表　年齢（５歳階級），男女別死亡者数－日本人，外国人</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>120</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>参考表　年齢（５歳階級），男女別死亡者数－日本人，外国人</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215866">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="017">参考表　年齢（５歳階級），男女別出入国者数－日本人，外国人</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>240</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>参考表　年齢（５歳階級），男女別出入国者数－日本人，外国人</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215867">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="018">参考表　都道府県，男女別人口の計算表－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>1584</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>参考表　都道府県，男女別人口の計算表－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215868">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="019">参考表　都道府県，男女別出生児数及び死亡者数－日本人，外国人</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>576</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>参考表　都道府県，男女別出生児数及び死亡者数－日本人，外国人</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215869">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="020">参考表　都道府県，男女別都道府県間転出入者数－日本人，外国人</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>576</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>参考表　都道府県，男女別都道府県間転出入者数－日本人，外国人</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <TABLE_INF id="0003215870">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="021">参考表　都道府県，男女別出入国者数－日本人，外国人</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>576</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>参考表　都道府県，男女別出入国者数－日本人，外国人</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+    </DATALIST_INF>
+</GET_STATS_LIST>

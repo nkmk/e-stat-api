@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GET_STATS_DATA xsi:noNamespaceSchemaLocation="https://api.e-stat.go.jp/rest/2.1/schema/GetStatsData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <RESULT>
+        <STATUS>0</STATUS>
+        <ERROR_MSG>正常に終了しました。</ERROR_MSG>
+        <DATE>2018-05-24T19:40:39.015+09:00</DATE>
+    </RESULT>
+    <PARAMETER>
+        <LANG>J</LANG>
+        <STATS_DATA_ID>0003215840</STATS_DATA_ID>
+        <DATA_FORMAT>X</DATA_FORMAT>
+        <START_POSITION>1</START_POSITION>
+        <METAGET_FLG>Y</METAGET_FLG>
+        <SECTION_HEADER_FLG>2</SECTION_HEADER_FLG>
+    </PARAMETER>
+    <STATISTICAL_DATA>
+        <RESULT_INF>
+            <TOTAL_NUMBER>816</TOTAL_NUMBER>
+            <FROM_NUMBER>1</FROM_NUMBER>
+            <TO_NUMBER>816</TO_NUMBER>
+        </RESULT_INF>
+        <TABLE_INF id="0003215840">
+            <STAT_NAME code="00200524">人口推計</STAT_NAME>
+            <GOV_ORG code="00200">総務省</GOV_ORG>
+            <STATISTICS_NAME>人口推計 平成29年10月1日現在人口推計</STATISTICS_NAME>
+            <TITLE no="001">年齢（各歳），男女別人口及び人口性比－総人口，日本人人口</TITLE>
+            <CYCLE>-</CYCLE>
+            <SURVEY_DATE>201710</SURVEY_DATE>
+            <OPEN_DATE>2018-04-13</OPEN_DATE>
+            <SMALL_AREA>0</SMALL_AREA>
+            <MAIN_CATEGORY code="02">人口・世帯</MAIN_CATEGORY>
+            <SUB_CATEGORY code="01">人口</SUB_CATEGORY>
+            <OVERALL_TOTAL_NUMBER>816</OVERALL_TOTAL_NUMBER>
+            <UPDATED_DATE>2018-04-14</UPDATED_DATE>
+            <STATISTICS_NAME_SPEC>
+                <TABULATION_CATEGORY>人口推計</TABULATION_CATEGORY>
+                <TABULATION_SUB_CATEGORY1>平成29年10月1日現在人口推計</TABULATION_SUB_CATEGORY1>
+            </STATISTICS_NAME_SPEC>
+            <TITLE_SPEC>
+                <TABLE_NAME>年齢（各歳），男女別人口及び人口性比－総人口，日本人人口</TABLE_NAME>
+            </TITLE_SPEC>
+        </TABLE_INF>
+        <CLASS_INF>
+            <CLASS_OBJ id="cat01" name="男女別・性比">
+                <CLASS code="001" name="男女計" level="1" unit="千人"/>
+                <CLASS code="002" name="男" level="1" unit="千人"/>
+                <CLASS code="003" name="女" level="1" unit="千人"/>
+                <CLASS code="004" name="人口性比" level="1" unit="女性＝100"/>
+            </CLASS_OBJ>
+            <CLASS_OBJ id="cat02" name="人口">
+                <CLASS code="001" name="総人口" level="1"/>
+                <CLASS code="002" name="日本人人口" level="1"/>
+            </CLASS_OBJ>
+            <CLASS_OBJ id="cat03" name="年齢各歳">
+                <CLASS code="01000" name="総数" level="1"/>
+                <CLASS code="01001" name="0歳" level="1"/>
+                <CLASS code="01002" name="1歳" level="1"/>
+                <CLASS code="01003" name="2歳" level="1"/>
+                <CLASS code="01004" name="3歳" level="1"/>
+                <CLASS code="01005" name="4歳" level="1"/>
+                <CLASS code="01006" name="5歳" level="1"/>
+                <CLASS code="01007" name="6歳" level="1"/>
+                <CLASS code="01008" name="7歳" level="1"/>
+                <CLASS code="01009" name="8歳" level="1"/>
+                <CLASS code="01010" name="9歳" level="1"/>
+                <CLASS code="01011" name="10歳" level="1"/>
+                <CLASS code="01012" name="11歳" level="1"/>
+                <CLASS code="01013" name="12歳" level="1"/>
+                <CLASS code="01014" name="13歳" level="1"/>
+                <CLASS code="01015" name="14歳" level="1"/>
+                <CLASS code="01016" name="15歳" level="1"/>
+                <CLASS code="01017" name="16歳" level="1"/>
+                <CLASS code="01018" name="17歳" level="1"/>
+                <CLASS code="01019" name="18歳" level="1"/>
+                <CLASS code="01020" name="19歳" level="1"/>
+                <CLASS code="01021" name="20歳" level="1"/>
+                <CLASS code="01022" name="21歳" level="1"/>
+                <CLASS code="01023" name="22歳" level="1"/>
+                <CLASS code="01024" name="23歳" level="1"/>
+                <CLASS code="01025" name="24歳" level="1"/>
+                <CLASS code="01026" name="25歳" level="1"/>
+                <CLASS code="01027" name="26歳" level="1"/>
+                <CLASS code="01028" name="27歳" level="1"/>
+                <CLASS code="01029" name="28歳" level="1"/>
+                <CLASS code="01030" name="29歳" level="1"/>
+                <CLASS code="01031" name="30歳" level="1"/>
+                <CLASS code="01032" name="31歳" level="1"/>
+                <CLASS code="01033" name="32歳" level="1"/>
+                <CLASS code="01034" name="33歳" level="1"/>
+                <CLASS code="01035" name="34歳" level="1"/>
+                <CLASS code="01036" name="35歳" level="1"/>
+                <CLASS code="01037" name="36歳" level="1"/>
+                <CLASS code="01038" name="37歳" level="1"/>
+                <CLASS code="01039" name="38歳" level="1"/>
+                <CLASS code="01040" name="39歳" level="1"/>
+                <CLASS code="01041" name="40歳" level="1"/>
+                <CLASS code="01042" name="41歳" level="1"/>
+                <CLASS code="01043" name="42歳" level="1"/>
+                <CLASS code="01044" name="43歳" level="1"/>
+                <CLASS code="01045" name="44歳" level="1"/>
+                <CLASS code="01046" name="45歳" level="1"/>
+                <CLASS code="01047" name="46歳" level="1"/>
+                <CLASS code="01048" name="47歳" level="1"/>
+                <CLASS code="01049" name="48歳" level="1"/>
+                <CLASS code="01050" name="49歳" level="1"/>
+                <CLASS code="01051" name="50歳" level="1"/>
+                <CLASS code="01052" name="51歳" level="1"/>
+                <CLASS code="01053" name="52歳" level="1"/>
+                <CLASS code="01054" name="53歳" level="1"/>
+                <CLASS code="01055" name="54歳" level="1"/>
+                <CLASS code="01056" name="55歳" level="1"/>
+                <CLASS code="01057" name="56歳" level="1"/>
+                <CLASS code="01058" name="57歳" level="1"/>
+                <CLASS code="01059" name="58歳" level="1"/>
+                <CLASS code="01060" name="59歳" level="1"/>
+                <CLASS code="01061" name="60歳" level="1"/>
+                <CLASS code="01062" name="61歳" level="1"/>
+                <CLASS code="01063" name="62歳" level="1"/>
+                <CLASS code="01064" name="63歳" level="1"/>
+                <CLASS code="01065" name="64歳" level="1"/>
+                <CLASS code="01066" name="65歳" level="1"/>
+                <CLASS code="01067" name="66歳" level="1"/>
+                <CLASS code="01068" name="67歳" level="1"/>
+                <CLASS code="01069" name="68歳" level="1"/>
+                <CLASS code="01070" name="69歳" level="1"/>
+                <CLASS code="01071" name="70歳" level="1"/>
+                <CLASS code="01072" name="71歳" level="1"/>
+                <CLASS code="01073" name="72歳" level="1"/>
+                <CLASS code="01074" name="73歳" level="1"/>
+                <CLASS code="01075" name="74歳" level="1"/>
+                <CLASS code="01076" name="75歳" level="1"/>
+                <CLASS code="01077" name="76歳" level="1"/>
+                <CLASS code="01078" name="77歳" level="1"/>
+                <CLASS code="01079" name="78歳" level="1"/>
+                <CLASS code="01080" name="79歳" level="1"/>
+                <CLASS code="01081" name="80歳" level="1"/>
+                <CLASS code="01082" name="81歳" level="1"/>
+                <CLASS code="01083" name="82歳" level="1"/>
+                <CLASS code="01084" name="83歳" level="1"/>
+                <CLASS code="01085" name="84歳" level="1"/>
+                <CLASS code="01086" name="85歳" level="1"/>
+                <CLASS code="01087" name="86歳" level="1"/>
+                <CLASS code="01088" name="87歳" level="1"/>
+                <CLASS code="01089" name="88歳" level="1"/>
+                <CLASS code="01090" name="89歳" level="1"/>
+                <CLASS code="01091" name="90歳" level="1"/>
+                <CLASS code="01092" name="91歳" level="1"/>
+                <CLASS code="01093" name="92歳" level="1"/>
+                <CLASS code="01094" name="93歳" level="1"/>
+                <CLASS code="01095" name="94歳" level="1"/>
+                <CLASS code="01096" name="95歳" level="1"/>
+                <CLASS code="01097" name="96歳" level="1"/>
+                <CLASS code="01098" name="97歳" level="1"/>
+                <CLASS code="01099" name="98歳" level="1"/>
+                <CLASS code="01100" name="99歳" level="1"/>
+                <CLASS code="01101" name="100歳以上" level="1"/>
+            </CLASS_OBJ>
+            <CLASS_OBJ id="area" name="全国">
+                <CLASS code="00000" name="全国" level="1"/>
+            </CLASS_OBJ>
+            <CLASS_OBJ id="time" name="時間軸（年月日現在）">
+                <CLASS code="1001" name="平成29年10月1日現在" level="1"/>
+            </CLASS_OBJ>
+        </CLASS_INF>
+        <DATA_INF>
+            <NOTE char="***">　</NOTE>
+            <NOTE char="-">該当数値がないもの　</NOTE>
+            <VALUE cat01="001" cat02="001" cat03="01000" area="00000" time="1001" unit="千人">126706</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01001" area="00000" time="1001" unit="千人">963</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01002" area="00000" time="1001" unit="千人">1000</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01003" area="00000" time="1001" unit="千人">960</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01004" area="00000" time="1001" unit="千人">975</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01005" area="00000" time="1001" unit="千人">1011</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01006" area="00000" time="1001" unit="千人">1017</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01007" area="00000" time="1001" unit="千人">1045</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01008" area="00000" time="1001" unit="千人">1049</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01009" area="00000" time="1001" unit="千人">1060</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01010" area="00000" time="1001" unit="千人">1080</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01011" area="00000" time="1001" unit="千人">1072</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01012" area="00000" time="1001" unit="千人">1065</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01013" area="00000" time="1001" unit="千人">1067</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01014" area="00000" time="1001" unit="千人">1105</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01015" area="00000" time="1001" unit="千人">1124</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01016" area="00000" time="1001" unit="千人">1158</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01017" area="00000" time="1001" unit="千人">1174</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01018" area="00000" time="1001" unit="千人">1202</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01019" area="00000" time="1001" unit="千人">1212</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01020" area="00000" time="1001" unit="千人">1248</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01021" area="00000" time="1001" unit="千人">1248</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01022" area="00000" time="1001" unit="千人">1239</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01023" area="00000" time="1001" unit="千人">1260</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01024" area="00000" time="1001" unit="千人">1254</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01025" area="00000" time="1001" unit="千人">1226</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01026" area="00000" time="1001" unit="千人">1234</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01027" area="00000" time="1001" unit="千人">1225</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01028" area="00000" time="1001" unit="千人">1245</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01029" area="00000" time="1001" unit="千人">1273</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01030" area="00000" time="1001" unit="千人">1314</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01031" area="00000" time="1001" unit="千人">1349</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01032" area="00000" time="1001" unit="千人">1372</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01033" area="00000" time="1001" unit="千人">1426</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01034" area="00000" time="1001" unit="千人">1472</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01035" area="00000" time="1001" unit="千人">1493</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01036" area="00000" time="1001" unit="千人">1496</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01037" area="00000" time="1001" unit="千人">1512</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01038" area="00000" time="1001" unit="千人">1577</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01039" area="00000" time="1001" unit="千人">1618</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01040" area="00000" time="1001" unit="千人">1681</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01041" area="00000" time="1001" unit="千人">1726</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01042" area="00000" time="1001" unit="千人">1809</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01043" area="00000" time="1001" unit="千人">1889</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01044" area="00000" time="1001" unit="千人">1992</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01045" area="00000" time="1001" unit="千人">2027</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01046" area="00000" time="1001" unit="千人">1990</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01047" area="00000" time="1001" unit="千人">1936</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01048" area="00000" time="1001" unit="千人">1877</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01049" area="00000" time="1001" unit="千人">1848</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01050" area="00000" time="1001" unit="千人">1806</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01051" area="00000" time="1001" unit="千人">1801</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01052" area="00000" time="1001" unit="千人">1408</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01053" area="00000" time="1001" unit="千人">1737</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01054" area="00000" time="1001" unit="千人">1626</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01055" area="00000" time="1001" unit="千人">1584</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01056" area="00000" time="1001" unit="千人">1531</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01057" area="00000" time="1001" unit="千人">1506</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01058" area="00000" time="1001" unit="千人">1515</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01059" area="00000" time="1001" unit="千人">1542</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01060" area="00000" time="1001" unit="千人">1499</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01061" area="00000" time="1001" unit="千人">1456</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01062" area="00000" time="1001" unit="千人">1528</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01063" area="00000" time="1001" unit="千人">1577</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01064" area="00000" time="1001" unit="千人">1574</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01065" area="00000" time="1001" unit="千人">1670</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01066" area="00000" time="1001" unit="千人">1763</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01067" area="00000" time="1001" unit="千人">1860</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01068" area="00000" time="1001" unit="千人">1989</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01069" area="00000" time="1001" unit="千人">2170</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01070" area="00000" time="1001" unit="千人">2139</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01071" area="00000" time="1001" unit="千人">2018</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01072" area="00000" time="1001" unit="千人">1251</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01073" area="00000" time="1001" unit="千人">1332</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01074" area="00000" time="1001" unit="千人">1607</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01075" area="00000" time="1001" unit="千人">1541</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01076" area="00000" time="1001" unit="千人">1564</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01077" area="00000" time="1001" unit="千人">1499</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01078" area="00000" time="1001" unit="千人">1339</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01079" area="00000" time="1001" unit="千人">1143</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01080" area="00000" time="1001" unit="千人">1192</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01081" area="00000" time="1001" unit="千人">1191</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01082" area="00000" time="1001" unit="千人">1155</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01083" area="00000" time="1001" unit="千人">1064</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01084" area="00000" time="1001" unit="千人">965</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01085" area="00000" time="1001" unit="千人">919</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01086" area="00000" time="1001" unit="千人">845</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01087" area="00000" time="1001" unit="千人">762</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01088" area="00000" time="1001" unit="千人">666</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01089" area="00000" time="1001" unit="千人">598</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01090" area="00000" time="1001" unit="千人">525</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01091" area="00000" time="1001" unit="千人">453</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01092" area="00000" time="1001" unit="千人">387</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01093" area="00000" time="1001" unit="千人">311</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01094" area="00000" time="1001" unit="千人">241</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01095" area="00000" time="1001" unit="千人">190</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01096" area="00000" time="1001" unit="千人">138</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01097" area="00000" time="1001" unit="千人">103</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01098" area="00000" time="1001" unit="千人">81</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01099" area="00000" time="1001" unit="千人">48</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01100" area="00000" time="1001" unit="千人">35</VALUE>
+            <VALUE cat01="001" cat02="001" cat03="01101" area="00000" time="1001" unit="千人">67</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01000" area="00000" time="1001" unit="千人">124648</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01001" area="00000" time="1001" unit="千人">947</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01002" area="00000" time="1001" unit="千人">985</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01003" area="00000" time="1001" unit="千人">946</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01004" area="00000" time="1001" unit="千人">960</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01005" area="00000" time="1001" unit="千人">997</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01006" area="00000" time="1001" unit="千人">1004</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01007" area="00000" time="1001" unit="千人">1033</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01008" area="00000" time="1001" unit="千人">1037</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01009" area="00000" time="1001" unit="千人">1049</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01010" area="00000" time="1001" unit="千人">1069</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01011" area="00000" time="1001" unit="千人">1061</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01012" area="00000" time="1001" unit="千人">1054</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01013" area="00000" time="1001" unit="千人">1057</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01014" area="00000" time="1001" unit="千人">1095</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01015" area="00000" time="1001" unit="千人">1115</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01016" area="00000" time="1001" unit="千人">1148</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01017" area="00000" time="1001" unit="千人">1163</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01018" area="00000" time="1001" unit="千人">1189</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01019" area="00000" time="1001" unit="千人">1191</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01020" area="00000" time="1001" unit="千人">1206</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01021" area="00000" time="1001" unit="千人">1194</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01022" area="00000" time="1001" unit="千人">1180</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01023" area="00000" time="1001" unit="千人">1198</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01024" area="00000" time="1001" unit="千人">1189</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01025" area="00000" time="1001" unit="千人">1160</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01026" area="00000" time="1001" unit="千人">1173</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01027" area="00000" time="1001" unit="千人">1166</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01028" area="00000" time="1001" unit="千人">1184</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01029" area="00000" time="1001" unit="千人">1216</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01030" area="00000" time="1001" unit="千人">1261</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01031" area="00000" time="1001" unit="千人">1298</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01032" area="00000" time="1001" unit="千人">1325</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01033" area="00000" time="1001" unit="千人">1381</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01034" area="00000" time="1001" unit="千人">1429</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01035" area="00000" time="1001" unit="千人">1449</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01036" area="00000" time="1001" unit="千人">1450</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01037" area="00000" time="1001" unit="千人">1471</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01038" area="00000" time="1001" unit="千人">1537</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01039" area="00000" time="1001" unit="千人">1580</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01040" area="00000" time="1001" unit="千人">1645</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01041" area="00000" time="1001" unit="千人">1692</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01042" area="00000" time="1001" unit="千人">1776</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01043" area="00000" time="1001" unit="千人">1857</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01044" area="00000" time="1001" unit="千人">1961</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01045" area="00000" time="1001" unit="千人">1995</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01046" area="00000" time="1001" unit="千人">1957</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01047" area="00000" time="1001" unit="千人">1904</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01048" area="00000" time="1001" unit="千人">1845</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01049" area="00000" time="1001" unit="千人">1817</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01050" area="00000" time="1001" unit="千人">1776</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01051" area="00000" time="1001" unit="千人">1775</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01052" area="00000" time="1001" unit="千人">1383</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01053" area="00000" time="1001" unit="千人">1711</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01054" area="00000" time="1001" unit="千人">1601</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01055" area="00000" time="1001" unit="千人">1560</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01056" area="00000" time="1001" unit="千人">1510</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01057" area="00000" time="1001" unit="千人">1487</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01058" area="00000" time="1001" unit="千人">1497</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01059" area="00000" time="1001" unit="千人">1526</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01060" area="00000" time="1001" unit="千人">1483</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01061" area="00000" time="1001" unit="千人">1441</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01062" area="00000" time="1001" unit="千人">1514</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01063" area="00000" time="1001" unit="千人">1563</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01064" area="00000" time="1001" unit="千人">1561</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01065" area="00000" time="1001" unit="千人">1658</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01066" area="00000" time="1001" unit="千人">1751</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01067" area="00000" time="1001" unit="千人">1849</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01068" area="00000" time="1001" unit="千人">1979</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01069" area="00000" time="1001" unit="千人">2160</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01070" area="00000" time="1001" unit="千人">2129</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01071" area="00000" time="1001" unit="千人">2009</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01072" area="00000" time="1001" unit="千人">1244</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01073" area="00000" time="1001" unit="千人">1325</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01074" area="00000" time="1001" unit="千人">1600</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01075" area="00000" time="1001" unit="千人">1534</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01076" area="00000" time="1001" unit="千人">1558</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01077" area="00000" time="1001" unit="千人">1493</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01078" area="00000" time="1001" unit="千人">1334</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01079" area="00000" time="1001" unit="千人">1138</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01080" area="00000" time="1001" unit="千人">1188</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01081" area="00000" time="1001" unit="千人">1187</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01082" area="00000" time="1001" unit="千人">1152</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01083" area="00000" time="1001" unit="千人">1060</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01084" area="00000" time="1001" unit="千人">962</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01085" area="00000" time="1001" unit="千人">916</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01086" area="00000" time="1001" unit="千人">842</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01087" area="00000" time="1001" unit="千人">760</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01088" area="00000" time="1001" unit="千人">665</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01089" area="00000" time="1001" unit="千人">596</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01090" area="00000" time="1001" unit="千人">524</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01091" area="00000" time="1001" unit="千人">452</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01092" area="00000" time="1001" unit="千人">387</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01093" area="00000" time="1001" unit="千人">310</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01094" area="00000" time="1001" unit="千人">241</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01095" area="00000" time="1001" unit="千人">189</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01096" area="00000" time="1001" unit="千人">138</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01097" area="00000" time="1001" unit="千人">103</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01098" area="00000" time="1001" unit="千人">81</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01099" area="00000" time="1001" unit="千人">47</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01100" area="00000" time="1001" unit="千人">35</VALUE>
+            <VALUE cat01="001" cat02="002" cat03="01101" area="00000" time="1001" unit="千人">67</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01000" area="00000" time="1001" unit="千人">61655</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01001" area="00000" time="1001" unit="千人">493</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01002" area="00000" time="1001" unit="千人">514</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01003" area="00000" time="1001" unit="千人">490</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01004" area="00000" time="1001" unit="千人">499</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01005" area="00000" time="1001" unit="千人">517</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01006" area="00000" time="1001" unit="千人">520</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01007" area="00000" time="1001" unit="千人">536</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01008" area="00000" time="1001" unit="千人">538</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01009" area="00000" time="1001" unit="千人">543</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01010" area="00000" time="1001" unit="千人">553</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01011" area="00000" time="1001" unit="千人">549</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01012" area="00000" time="1001" unit="千人">545</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01013" area="00000" time="1001" unit="千人">546</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01014" area="00000" time="1001" unit="千人">565</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01015" area="00000" time="1001" unit="千人">576</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01016" area="00000" time="1001" unit="千人">594</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01017" area="00000" time="1001" unit="千人">602</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01018" area="00000" time="1001" unit="千人">619</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01019" area="00000" time="1001" unit="千人">623</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01020" area="00000" time="1001" unit="千人">641</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01021" area="00000" time="1001" unit="千人">641</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01022" area="00000" time="1001" unit="千人">639</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01023" area="00000" time="1001" unit="千人">649</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01024" area="00000" time="1001" unit="千人">645</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01025" area="00000" time="1001" unit="千人">631</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01026" area="00000" time="1001" unit="千人">635</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01027" area="00000" time="1001" unit="千人">628</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01028" area="00000" time="1001" unit="千人">637</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01029" area="00000" time="1001" unit="千人">650</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01030" area="00000" time="1001" unit="千人">671</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01031" area="00000" time="1001" unit="千人">688</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01032" area="00000" time="1001" unit="千人">700</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01033" area="00000" time="1001" unit="千人">724</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01034" area="00000" time="1001" unit="千人">746</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01035" area="00000" time="1001" unit="千人">758</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01036" area="00000" time="1001" unit="千人">757</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01037" area="00000" time="1001" unit="千人">767</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01038" area="00000" time="1001" unit="千人">799</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01039" area="00000" time="1001" unit="千人">821</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01040" area="00000" time="1001" unit="千人">852</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01041" area="00000" time="1001" unit="千人">875</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01042" area="00000" time="1001" unit="千人">917</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01043" area="00000" time="1001" unit="千人">957</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01044" area="00000" time="1001" unit="千人">1011</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01045" area="00000" time="1001" unit="千人">1024</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01046" area="00000" time="1001" unit="千人">1008</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01047" area="00000" time="1001" unit="千人">978</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01048" area="00000" time="1001" unit="千人">949</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01049" area="00000" time="1001" unit="千人">932</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01050" area="00000" time="1001" unit="千人">910</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01051" area="00000" time="1001" unit="千人">908</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01052" area="00000" time="1001" unit="千人">707</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01053" area="00000" time="1001" unit="千人">873</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01054" area="00000" time="1001" unit="千人">817</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01055" area="00000" time="1001" unit="千人">794</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01056" area="00000" time="1001" unit="千人">766</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01057" area="00000" time="1001" unit="千人">753</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01058" area="00000" time="1001" unit="千人">755</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01059" area="00000" time="1001" unit="千人">768</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01060" area="00000" time="1001" unit="千人">744</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01061" area="00000" time="1001" unit="千人">721</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01062" area="00000" time="1001" unit="千人">755</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01063" area="00000" time="1001" unit="千人">779</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01064" area="00000" time="1001" unit="千人">774</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01065" area="00000" time="1001" unit="千人">817</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01066" area="00000" time="1001" unit="千人">860</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01067" area="00000" time="1001" unit="千人">904</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01068" area="00000" time="1001" unit="千人">963</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01069" area="00000" time="1001" unit="千人">1046</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01070" area="00000" time="1001" unit="千人">1026</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01071" area="00000" time="1001" unit="千人">965</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01072" area="00000" time="1001" unit="千人">591</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01073" area="00000" time="1001" unit="千人">621</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01074" area="00000" time="1001" unit="千人">743</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01075" area="00000" time="1001" unit="千人">708</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01076" area="00000" time="1001" unit="千人">713</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01077" area="00000" time="1001" unit="千人">678</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01078" area="00000" time="1001" unit="千人">598</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01079" area="00000" time="1001" unit="千人">504</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01080" area="00000" time="1001" unit="千人">517</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01081" area="00000" time="1001" unit="千人">508</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01082" area="00000" time="1001" unit="千人">483</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01083" area="00000" time="1001" unit="千人">433</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01084" area="00000" time="1001" unit="千人">382</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01085" area="00000" time="1001" unit="千人">351</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01086" area="00000" time="1001" unit="千人">314</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01087" area="00000" time="1001" unit="千人">272</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01088" area="00000" time="1001" unit="千人">228</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01089" area="00000" time="1001" unit="千人">195</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01090" area="00000" time="1001" unit="千人">164</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01091" area="00000" time="1001" unit="千人">135</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01092" area="00000" time="1001" unit="千人">108</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01093" area="00000" time="1001" unit="千人">79</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01094" area="00000" time="1001" unit="千人">56</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01095" area="00000" time="1001" unit="千人">39</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01096" area="00000" time="1001" unit="千人">26</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01097" area="00000" time="1001" unit="千人">18</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01098" area="00000" time="1001" unit="千人">13</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01099" area="00000" time="1001" unit="千人">7</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01100" area="00000" time="1001" unit="千人">5</VALUE>
+            <VALUE cat01="002" cat02="001" cat03="01101" area="00000" time="1001" unit="千人">9</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01000" area="00000" time="1001" unit="千人">60676</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01001" area="00000" time="1001" unit="千人">485</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01002" area="00000" time="1001" unit="千人">506</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01003" area="00000" time="1001" unit="千人">483</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01004" area="00000" time="1001" unit="千人">491</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01005" area="00000" time="1001" unit="千人">509</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01006" area="00000" time="1001" unit="千人">513</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01007" area="00000" time="1001" unit="千人">529</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01008" area="00000" time="1001" unit="千人">532</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01009" area="00000" time="1001" unit="千人">537</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01010" area="00000" time="1001" unit="千人">548</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01011" area="00000" time="1001" unit="千人">544</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01012" area="00000" time="1001" unit="千人">540</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01013" area="00000" time="1001" unit="千人">541</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01014" area="00000" time="1001" unit="千人">560</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01015" area="00000" time="1001" unit="千人">571</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01016" area="00000" time="1001" unit="千人">588</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01017" area="00000" time="1001" unit="千人">597</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01018" area="00000" time="1001" unit="千人">613</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01019" area="00000" time="1001" unit="千人">612</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01020" area="00000" time="1001" unit="千人">620</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01021" area="00000" time="1001" unit="千人">614</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01022" area="00000" time="1001" unit="千人">608</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01023" area="00000" time="1001" unit="千人">614</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01024" area="00000" time="1001" unit="千人">609</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01025" area="00000" time="1001" unit="千人">594</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01026" area="00000" time="1001" unit="千人">600</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01027" area="00000" time="1001" unit="千人">596</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01028" area="00000" time="1001" unit="千人">604</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01029" area="00000" time="1001" unit="千人">620</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01030" area="00000" time="1001" unit="千人">644</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01031" area="00000" time="1001" unit="千人">662</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01032" area="00000" time="1001" unit="千人">676</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01033" area="00000" time="1001" unit="千人">702</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01034" area="00000" time="1001" unit="千人">725</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01035" area="00000" time="1001" unit="千人">737</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01036" area="00000" time="1001" unit="千人">737</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01037" area="00000" time="1001" unit="千人">748</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01038" area="00000" time="1001" unit="千人">782</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01039" area="00000" time="1001" unit="千人">804</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01040" area="00000" time="1001" unit="千人">837</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01041" area="00000" time="1001" unit="千人">861</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01042" area="00000" time="1001" unit="千人">903</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01043" area="00000" time="1001" unit="千人">944</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01044" area="00000" time="1001" unit="千人">997</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01045" area="00000" time="1001" unit="千人">1011</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01046" area="00000" time="1001" unit="千人">995</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01047" area="00000" time="1001" unit="千人">966</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01048" area="00000" time="1001" unit="千人">936</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01049" area="00000" time="1001" unit="千人">920</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01050" area="00000" time="1001" unit="千人">899</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01051" area="00000" time="1001" unit="千人">897</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01052" area="00000" time="1001" unit="千人">697</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01053" area="00000" time="1001" unit="千人">862</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01054" area="00000" time="1001" unit="千人">807</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01055" area="00000" time="1001" unit="千人">784</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01056" area="00000" time="1001" unit="千人">758</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01057" area="00000" time="1001" unit="千人">745</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01058" area="00000" time="1001" unit="千人">748</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01059" area="00000" time="1001" unit="千人">761</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01060" area="00000" time="1001" unit="千人">737</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01061" area="00000" time="1001" unit="千人">715</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01062" area="00000" time="1001" unit="千人">749</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01063" area="00000" time="1001" unit="千人">773</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01064" area="00000" time="1001" unit="千人">769</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01065" area="00000" time="1001" unit="千人">812</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01066" area="00000" time="1001" unit="千人">854</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01067" area="00000" time="1001" unit="千人">899</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01068" area="00000" time="1001" unit="千人">957</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01069" area="00000" time="1001" unit="千人">1041</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01070" area="00000" time="1001" unit="千人">1021</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01071" area="00000" time="1001" unit="千人">961</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01072" area="00000" time="1001" unit="千人">588</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01073" area="00000" time="1001" unit="千人">618</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01074" area="00000" time="1001" unit="千人">740</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01075" area="00000" time="1001" unit="千人">705</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01076" area="00000" time="1001" unit="千人">710</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01077" area="00000" time="1001" unit="千人">675</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01078" area="00000" time="1001" unit="千人">596</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01079" area="00000" time="1001" unit="千人">502</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01080" area="00000" time="1001" unit="千人">515</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01081" area="00000" time="1001" unit="千人">506</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01082" area="00000" time="1001" unit="千人">482</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01083" area="00000" time="1001" unit="千人">432</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01084" area="00000" time="1001" unit="千人">381</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01085" area="00000" time="1001" unit="千人">350</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01086" area="00000" time="1001" unit="千人">314</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01087" area="00000" time="1001" unit="千人">272</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01088" area="00000" time="1001" unit="千人">228</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01089" area="00000" time="1001" unit="千人">194</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01090" area="00000" time="1001" unit="千人">163</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01091" area="00000" time="1001" unit="千人">134</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01092" area="00000" time="1001" unit="千人">107</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01093" area="00000" time="1001" unit="千人">79</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01094" area="00000" time="1001" unit="千人">56</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01095" area="00000" time="1001" unit="千人">39</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01096" area="00000" time="1001" unit="千人">26</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01097" area="00000" time="1001" unit="千人">18</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01098" area="00000" time="1001" unit="千人">13</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01099" area="00000" time="1001" unit="千人">7</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01100" area="00000" time="1001" unit="千人">5</VALUE>
+            <VALUE cat01="002" cat02="002" cat03="01101" area="00000" time="1001" unit="千人">9</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01000" area="00000" time="1001" unit="千人">65051</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01001" area="00000" time="1001" unit="千人">470</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01002" area="00000" time="1001" unit="千人">486</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01003" area="00000" time="1001" unit="千人">470</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01004" area="00000" time="1001" unit="千人">476</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01005" area="00000" time="1001" unit="千人">495</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01006" area="00000" time="1001" unit="千人">497</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01007" area="00000" time="1001" unit="千人">510</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01008" area="00000" time="1001" unit="千人">511</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01009" area="00000" time="1001" unit="千人">517</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01010" area="00000" time="1001" unit="千人">527</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01011" area="00000" time="1001" unit="千人">523</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01012" area="00000" time="1001" unit="千人">520</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01013" area="00000" time="1001" unit="千人">521</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01014" area="00000" time="1001" unit="千人">540</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01015" area="00000" time="1001" unit="千人">548</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01016" area="00000" time="1001" unit="千人">565</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01017" area="00000" time="1001" unit="千人">572</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01018" area="00000" time="1001" unit="千人">583</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01019" area="00000" time="1001" unit="千人">590</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01020" area="00000" time="1001" unit="千人">607</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01021" area="00000" time="1001" unit="千人">607</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01022" area="00000" time="1001" unit="千人">600</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01023" area="00000" time="1001" unit="千人">611</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01024" area="00000" time="1001" unit="千人">609</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01025" area="00000" time="1001" unit="千人">596</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01026" area="00000" time="1001" unit="千人">599</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01027" area="00000" time="1001" unit="千人">597</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01028" area="00000" time="1001" unit="千人">608</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01029" area="00000" time="1001" unit="千人">623</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01030" area="00000" time="1001" unit="千人">642</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01031" area="00000" time="1001" unit="千人">661</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01032" area="00000" time="1001" unit="千人">672</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01033" area="00000" time="1001" unit="千人">702</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01034" area="00000" time="1001" unit="千人">726</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01035" area="00000" time="1001" unit="千人">736</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01036" area="00000" time="1001" unit="千人">738</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01037" area="00000" time="1001" unit="千人">745</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01038" area="00000" time="1001" unit="千人">778</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01039" area="00000" time="1001" unit="千人">797</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01040" area="00000" time="1001" unit="千人">829</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01041" area="00000" time="1001" unit="千人">851</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01042" area="00000" time="1001" unit="千人">892</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01043" area="00000" time="1001" unit="千人">932</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01044" area="00000" time="1001" unit="千人">982</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01045" area="00000" time="1001" unit="千人">1002</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01046" area="00000" time="1001" unit="千人">982</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01047" area="00000" time="1001" unit="千人">958</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01048" area="00000" time="1001" unit="千人">929</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01049" area="00000" time="1001" unit="千人">916</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01050" area="00000" time="1001" unit="千人">896</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01051" area="00000" time="1001" unit="千人">893</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01052" area="00000" time="1001" unit="千人">701</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01053" area="00000" time="1001" unit="千人">864</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01054" area="00000" time="1001" unit="千人">809</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01055" area="00000" time="1001" unit="千人">790</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01056" area="00000" time="1001" unit="千人">764</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01057" area="00000" time="1001" unit="千人">753</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01058" area="00000" time="1001" unit="千人">760</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01059" area="00000" time="1001" unit="千人">774</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01060" area="00000" time="1001" unit="千人">755</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01061" area="00000" time="1001" unit="千人">734</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01062" area="00000" time="1001" unit="千人">773</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01063" area="00000" time="1001" unit="千人">798</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01064" area="00000" time="1001" unit="千人">799</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01065" area="00000" time="1001" unit="千人">853</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01066" area="00000" time="1001" unit="千人">903</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01067" area="00000" time="1001" unit="千人">955</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01068" area="00000" time="1001" unit="千人">1027</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01069" area="00000" time="1001" unit="千人">1124</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01070" area="00000" time="1001" unit="千人">1114</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01071" area="00000" time="1001" unit="千人">1053</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01072" area="00000" time="1001" unit="千人">660</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01073" area="00000" time="1001" unit="千人">711</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01074" area="00000" time="1001" unit="千人">864</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01075" area="00000" time="1001" unit="千人">833</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01076" area="00000" time="1001" unit="千人">852</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01077" area="00000" time="1001" unit="千人">822</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01078" area="00000" time="1001" unit="千人">741</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01079" area="00000" time="1001" unit="千人">639</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01080" area="00000" time="1001" unit="千人">676</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01081" area="00000" time="1001" unit="千人">683</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01082" area="00000" time="1001" unit="千人">672</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01083" area="00000" time="1001" unit="千人">631</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01084" area="00000" time="1001" unit="千人">583</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01085" area="00000" time="1001" unit="千人">567</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01086" area="00000" time="1001" unit="千人">530</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01087" area="00000" time="1001" unit="千人">490</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01088" area="00000" time="1001" unit="千人">438</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01089" area="00000" time="1001" unit="千人">403</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01090" area="00000" time="1001" unit="千人">361</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01091" area="00000" time="1001" unit="千人">319</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01092" area="00000" time="1001" unit="千人">280</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01093" area="00000" time="1001" unit="千人">232</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01094" area="00000" time="1001" unit="千人">185</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01095" area="00000" time="1001" unit="千人">151</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01096" area="00000" time="1001" unit="千人">112</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01097" area="00000" time="1001" unit="千人">85</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01098" area="00000" time="1001" unit="千人">67</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01099" area="00000" time="1001" unit="千人">40</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01100" area="00000" time="1001" unit="千人">30</VALUE>
+            <VALUE cat01="003" cat02="001" cat03="01101" area="00000" time="1001" unit="千人">59</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01000" area="00000" time="1001" unit="千人">63973</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01001" area="00000" time="1001" unit="千人">462</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01002" area="00000" time="1001" unit="千人">479</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01003" area="00000" time="1001" unit="千人">463</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01004" area="00000" time="1001" unit="千人">468</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01005" area="00000" time="1001" unit="千人">488</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01006" area="00000" time="1001" unit="千人">490</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01007" area="00000" time="1001" unit="千人">504</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01008" area="00000" time="1001" unit="千人">505</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01009" area="00000" time="1001" unit="千人">511</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01010" area="00000" time="1001" unit="千人">521</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01011" area="00000" time="1001" unit="千人">518</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01012" area="00000" time="1001" unit="千人">515</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01013" area="00000" time="1001" unit="千人">516</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01014" area="00000" time="1001" unit="千人">535</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01015" area="00000" time="1001" unit="千人">543</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01016" area="00000" time="1001" unit="千人">560</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01017" area="00000" time="1001" unit="千人">567</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01018" area="00000" time="1001" unit="千人">577</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01019" area="00000" time="1001" unit="千人">579</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01020" area="00000" time="1001" unit="千人">585</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01021" area="00000" time="1001" unit="千人">580</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01022" area="00000" time="1001" unit="千人">573</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01023" area="00000" time="1001" unit="千人">583</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01024" area="00000" time="1001" unit="千人">579</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01025" area="00000" time="1001" unit="千人">566</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01026" area="00000" time="1001" unit="千人">572</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01027" area="00000" time="1001" unit="千人">570</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01028" area="00000" time="1001" unit="千人">580</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01029" area="00000" time="1001" unit="千人">596</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01030" area="00000" time="1001" unit="千人">617</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01031" area="00000" time="1001" unit="千人">636</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01032" area="00000" time="1001" unit="千人">649</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01033" area="00000" time="1001" unit="千人">679</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01034" area="00000" time="1001" unit="千人">703</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01035" area="00000" time="1001" unit="千人">712</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01036" area="00000" time="1001" unit="千人">713</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01037" area="00000" time="1001" unit="千人">723</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01038" area="00000" time="1001" unit="千人">756</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01039" area="00000" time="1001" unit="千人">775</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01040" area="00000" time="1001" unit="千人">809</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01041" area="00000" time="1001" unit="千人">832</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01042" area="00000" time="1001" unit="千人">873</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01043" area="00000" time="1001" unit="千人">913</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01044" area="00000" time="1001" unit="千人">963</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01045" area="00000" time="1001" unit="千人">983</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01046" area="00000" time="1001" unit="千人">962</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01047" area="00000" time="1001" unit="千人">938</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01048" area="00000" time="1001" unit="千人">909</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01049" area="00000" time="1001" unit="千人">897</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01050" area="00000" time="1001" unit="千人">877</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01051" area="00000" time="1001" unit="千人">877</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01052" area="00000" time="1001" unit="千人">686</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01053" area="00000" time="1001" unit="千人">849</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01054" area="00000" time="1001" unit="千人">795</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01055" area="00000" time="1001" unit="千人">775</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01056" area="00000" time="1001" unit="千人">752</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01057" area="00000" time="1001" unit="千人">742</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01058" area="00000" time="1001" unit="千人">749</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01059" area="00000" time="1001" unit="千人">765</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01060" area="00000" time="1001" unit="千人">746</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01061" area="00000" time="1001" unit="千人">726</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01062" area="00000" time="1001" unit="千人">764</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01063" area="00000" time="1001" unit="千人">791</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01064" area="00000" time="1001" unit="千人">792</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01065" area="00000" time="1001" unit="千人">846</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01066" area="00000" time="1001" unit="千人">897</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01067" area="00000" time="1001" unit="千人">950</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01068" area="00000" time="1001" unit="千人">1021</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01069" area="00000" time="1001" unit="千人">1119</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01070" area="00000" time="1001" unit="千人">1108</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01071" area="00000" time="1001" unit="千人">1048</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01072" area="00000" time="1001" unit="千人">656</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01073" area="00000" time="1001" unit="千人">707</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01074" area="00000" time="1001" unit="千人">860</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01075" area="00000" time="1001" unit="千人">829</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01076" area="00000" time="1001" unit="千人">849</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01077" area="00000" time="1001" unit="千人">818</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01078" area="00000" time="1001" unit="千人">738</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01079" area="00000" time="1001" unit="千人">636</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01080" area="00000" time="1001" unit="千人">673</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01081" area="00000" time="1001" unit="千人">681</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01082" area="00000" time="1001" unit="千人">670</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01083" area="00000" time="1001" unit="千人">629</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01084" area="00000" time="1001" unit="千人">581</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01085" area="00000" time="1001" unit="千人">566</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01086" area="00000" time="1001" unit="千人">529</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01087" area="00000" time="1001" unit="千人">488</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01088" area="00000" time="1001" unit="千人">437</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01089" area="00000" time="1001" unit="千人">402</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01090" area="00000" time="1001" unit="千人">361</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01091" area="00000" time="1001" unit="千人">318</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01092" area="00000" time="1001" unit="千人">279</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01093" area="00000" time="1001" unit="千人">231</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01094" area="00000" time="1001" unit="千人">184</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01095" area="00000" time="1001" unit="千人">150</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01096" area="00000" time="1001" unit="千人">112</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01097" area="00000" time="1001" unit="千人">85</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01098" area="00000" time="1001" unit="千人">67</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01099" area="00000" time="1001" unit="千人">40</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01100" area="00000" time="1001" unit="千人">30</VALUE>
+            <VALUE cat01="003" cat02="002" cat03="01101" area="00000" time="1001" unit="千人">59</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01000" area="00000" time="1001" unit="女性＝100">94.8</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01001" area="00000" time="1001" unit="女性＝100">105.0</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01002" area="00000" time="1001" unit="女性＝100">105.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01003" area="00000" time="1001" unit="女性＝100">104.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01004" area="00000" time="1001" unit="女性＝100">104.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01005" area="00000" time="1001" unit="女性＝100">104.5</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01006" area="00000" time="1001" unit="女性＝100">104.7</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01007" area="00000" time="1001" unit="女性＝100">105.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01008" area="00000" time="1001" unit="女性＝100">105.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01009" area="00000" time="1001" unit="女性＝100">105.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01010" area="00000" time="1001" unit="女性＝100">105.0</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01011" area="00000" time="1001" unit="女性＝100">105.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01012" area="00000" time="1001" unit="女性＝100">104.8</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01013" area="00000" time="1001" unit="女性＝100">104.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01014" area="00000" time="1001" unit="女性＝100">104.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01015" area="00000" time="1001" unit="女性＝100">105.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01016" area="00000" time="1001" unit="女性＝100">105.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01017" area="00000" time="1001" unit="女性＝100">105.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01018" area="00000" time="1001" unit="女性＝100">106.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01019" area="00000" time="1001" unit="女性＝100">105.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01020" area="00000" time="1001" unit="女性＝100">105.5</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01021" area="00000" time="1001" unit="女性＝100">105.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01022" area="00000" time="1001" unit="女性＝100">106.5</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01023" area="00000" time="1001" unit="女性＝100">106.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01024" area="00000" time="1001" unit="女性＝100">106.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01025" area="00000" time="1001" unit="女性＝100">105.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01026" area="00000" time="1001" unit="女性＝100">105.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01027" area="00000" time="1001" unit="女性＝100">105.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01028" area="00000" time="1001" unit="女性＝100">104.7</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01029" area="00000" time="1001" unit="女性＝100">104.4</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01030" area="00000" time="1001" unit="女性＝100">104.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01031" area="00000" time="1001" unit="女性＝100">104.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01032" area="00000" time="1001" unit="女性＝100">104.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01033" area="00000" time="1001" unit="女性＝100">103.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01034" area="00000" time="1001" unit="女性＝100">102.8</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01035" area="00000" time="1001" unit="女性＝100">103.0</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01036" area="00000" time="1001" unit="女性＝100">102.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01037" area="00000" time="1001" unit="女性＝100">102.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01038" area="00000" time="1001" unit="女性＝100">102.8</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01039" area="00000" time="1001" unit="女性＝100">102.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01040" area="00000" time="1001" unit="女性＝100">102.7</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01041" area="00000" time="1001" unit="女性＝100">102.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01042" area="00000" time="1001" unit="女性＝100">102.8</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01043" area="00000" time="1001" unit="女性＝100">102.7</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01044" area="00000" time="1001" unit="女性＝100">102.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01045" area="00000" time="1001" unit="女性＝100">102.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01046" area="00000" time="1001" unit="女性＝100">102.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01047" area="00000" time="1001" unit="女性＝100">102.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01048" area="00000" time="1001" unit="女性＝100">102.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01049" area="00000" time="1001" unit="女性＝100">101.8</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01050" area="00000" time="1001" unit="女性＝100">101.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01051" area="00000" time="1001" unit="女性＝100">101.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01052" area="00000" time="1001" unit="女性＝100">100.8</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01053" area="00000" time="1001" unit="女性＝100">101.0</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01054" area="00000" time="1001" unit="女性＝100">100.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01055" area="00000" time="1001" unit="女性＝100">100.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01056" area="00000" time="1001" unit="女性＝100">100.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01057" area="00000" time="1001" unit="女性＝100">100.0</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01058" area="00000" time="1001" unit="女性＝100">99.4</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01059" area="00000" time="1001" unit="女性＝100">99.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01060" area="00000" time="1001" unit="女性＝100">98.5</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01061" area="00000" time="1001" unit="女性＝100">98.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01062" area="00000" time="1001" unit="女性＝100">97.8</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01063" area="00000" time="1001" unit="女性＝100">97.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01064" area="00000" time="1001" unit="女性＝100">96.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01065" area="00000" time="1001" unit="女性＝100">95.8</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01066" area="00000" time="1001" unit="女性＝100">95.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01067" area="00000" time="1001" unit="女性＝100">94.7</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01068" area="00000" time="1001" unit="女性＝100">93.7</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01069" area="00000" time="1001" unit="女性＝100">93.0</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01070" area="00000" time="1001" unit="女性＝100">92.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01071" area="00000" time="1001" unit="女性＝100">91.7</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01072" area="00000" time="1001" unit="女性＝100">89.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01073" area="00000" time="1001" unit="女性＝100">87.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01074" area="00000" time="1001" unit="女性＝100">86.0</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01075" area="00000" time="1001" unit="女性＝100">85.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01076" area="00000" time="1001" unit="女性＝100">83.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01077" area="00000" time="1001" unit="女性＝100">82.4</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01078" area="00000" time="1001" unit="女性＝100">80.7</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01079" area="00000" time="1001" unit="女性＝100">78.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01080" area="00000" time="1001" unit="女性＝100">76.4</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01081" area="00000" time="1001" unit="女性＝100">74.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01082" area="00000" time="1001" unit="女性＝100">71.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01083" area="00000" time="1001" unit="女性＝100">68.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01084" area="00000" time="1001" unit="女性＝100">65.5</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01085" area="00000" time="1001" unit="女性＝100">61.9</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01086" area="00000" time="1001" unit="女性＝100">59.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01087" area="00000" time="1001" unit="女性＝100">55.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01088" area="00000" time="1001" unit="女性＝100">52.1</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01089" area="00000" time="1001" unit="女性＝100">48.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01090" area="00000" time="1001" unit="女性＝100">45.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01091" area="00000" time="1001" unit="女性＝100">42.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01092" area="00000" time="1001" unit="女性＝100">38.5</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01093" area="00000" time="1001" unit="女性＝100">34.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01094" area="00000" time="1001" unit="女性＝100">30.5</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01095" area="00000" time="1001" unit="女性＝100">26.0</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01096" area="00000" time="1001" unit="女性＝100">23.2</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01097" area="00000" time="1001" unit="女性＝100">21.4</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01098" area="00000" time="1001" unit="女性＝100">19.6</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01099" area="00000" time="1001" unit="女性＝100">18.5</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01100" area="00000" time="1001" unit="女性＝100">17.3</VALUE>
+            <VALUE cat01="004" cat02="001" cat03="01101" area="00000" time="1001" unit="女性＝100">15.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01000" area="00000" time="1001" unit="女性＝100">94.8</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01001" area="00000" time="1001" unit="女性＝100">105.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01002" area="00000" time="1001" unit="女性＝100">105.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01003" area="00000" time="1001" unit="女性＝100">104.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01004" area="00000" time="1001" unit="女性＝100">104.9</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01005" area="00000" time="1001" unit="女性＝100">104.4</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01006" area="00000" time="1001" unit="女性＝100">104.7</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01007" area="00000" time="1001" unit="女性＝100">105.1</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01008" area="00000" time="1001" unit="女性＝100">105.2</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01009" area="00000" time="1001" unit="女性＝100">105.1</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01010" area="00000" time="1001" unit="女性＝100">105.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01011" area="00000" time="1001" unit="女性＝100">105.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01012" area="00000" time="1001" unit="女性＝100">104.8</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01013" area="00000" time="1001" unit="女性＝100">104.9</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01014" area="00000" time="1001" unit="女性＝100">104.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01015" area="00000" time="1001" unit="女性＝100">105.2</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01016" area="00000" time="1001" unit="女性＝100">105.1</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01017" area="00000" time="1001" unit="女性＝100">105.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01018" area="00000" time="1001" unit="女性＝100">106.2</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01019" area="00000" time="1001" unit="女性＝100">105.8</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01020" area="00000" time="1001" unit="女性＝100">105.9</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01021" area="00000" time="1001" unit="女性＝100">105.7</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01022" area="00000" time="1001" unit="女性＝100">106.1</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01023" area="00000" time="1001" unit="女性＝100">105.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01024" area="00000" time="1001" unit="女性＝100">105.2</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01025" area="00000" time="1001" unit="女性＝100">105.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01026" area="00000" time="1001" unit="女性＝100">105.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01027" area="00000" time="1001" unit="女性＝100">104.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01028" area="00000" time="1001" unit="女性＝100">104.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01029" area="00000" time="1001" unit="女性＝100">103.9</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01030" area="00000" time="1001" unit="女性＝100">104.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01031" area="00000" time="1001" unit="女性＝100">104.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01032" area="00000" time="1001" unit="女性＝100">104.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01033" area="00000" time="1001" unit="女性＝100">103.4</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01034" area="00000" time="1001" unit="女性＝100">103.2</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01035" area="00000" time="1001" unit="女性＝100">103.4</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01036" area="00000" time="1001" unit="女性＝100">103.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01037" area="00000" time="1001" unit="女性＝100">103.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01038" area="00000" time="1001" unit="女性＝100">103.4</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01039" area="00000" time="1001" unit="女性＝100">103.7</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01040" area="00000" time="1001" unit="女性＝100">103.4</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01041" area="00000" time="1001" unit="女性＝100">103.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01042" area="00000" time="1001" unit="女性＝100">103.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01043" area="00000" time="1001" unit="女性＝100">103.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01044" area="00000" time="1001" unit="女性＝100">103.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01045" area="00000" time="1001" unit="女性＝100">102.8</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01046" area="00000" time="1001" unit="女性＝100">103.4</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01047" area="00000" time="1001" unit="女性＝100">103.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01048" area="00000" time="1001" unit="女性＝100">103.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01049" area="00000" time="1001" unit="女性＝100">102.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01050" area="00000" time="1001" unit="女性＝100">102.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01051" area="00000" time="1001" unit="女性＝100">102.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01052" area="00000" time="1001" unit="女性＝100">101.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01053" area="00000" time="1001" unit="女性＝100">101.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01054" area="00000" time="1001" unit="女性＝100">101.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01055" area="00000" time="1001" unit="女性＝100">101.2</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01056" area="00000" time="1001" unit="女性＝100">100.8</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01057" area="00000" time="1001" unit="女性＝100">100.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01058" area="00000" time="1001" unit="女性＝100">99.8</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01059" area="00000" time="1001" unit="女性＝100">99.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01060" area="00000" time="1001" unit="女性＝100">98.8</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01061" area="00000" time="1001" unit="女性＝100">98.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01062" area="00000" time="1001" unit="女性＝100">98.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01063" area="00000" time="1001" unit="女性＝100">97.8</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01064" area="00000" time="1001" unit="女性＝100">97.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01065" area="00000" time="1001" unit="女性＝100">95.9</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01066" area="00000" time="1001" unit="女性＝100">95.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01067" area="00000" time="1001" unit="女性＝100">94.7</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01068" area="00000" time="1001" unit="女性＝100">93.7</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01069" area="00000" time="1001" unit="女性＝100">93.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01070" area="00000" time="1001" unit="女性＝100">92.1</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01071" area="00000" time="1001" unit="女性＝100">91.7</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01072" area="00000" time="1001" unit="女性＝100">89.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01073" area="00000" time="1001" unit="女性＝100">87.4</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01074" area="00000" time="1001" unit="女性＝100">86.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01075" area="00000" time="1001" unit="女性＝100">85.1</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01076" area="00000" time="1001" unit="女性＝100">83.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01077" area="00000" time="1001" unit="女性＝100">82.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01078" area="00000" time="1001" unit="女性＝100">80.7</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01079" area="00000" time="1001" unit="女性＝100">79.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01080" area="00000" time="1001" unit="女性＝100">76.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01081" area="00000" time="1001" unit="女性＝100">74.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01082" area="00000" time="1001" unit="女性＝100">71.9</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01083" area="00000" time="1001" unit="女性＝100">68.7</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01084" area="00000" time="1001" unit="女性＝100">65.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01085" area="00000" time="1001" unit="女性＝100">62.0</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01086" area="00000" time="1001" unit="女性＝100">59.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01087" area="00000" time="1001" unit="女性＝100">55.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01088" area="00000" time="1001" unit="女性＝100">52.1</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01089" area="00000" time="1001" unit="女性＝100">48.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01090" area="00000" time="1001" unit="女性＝100">45.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01091" area="00000" time="1001" unit="女性＝100">42.2</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01092" area="00000" time="1001" unit="女性＝100">38.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01093" area="00000" time="1001" unit="女性＝100">34.2</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01094" area="00000" time="1001" unit="女性＝100">30.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01095" area="00000" time="1001" unit="女性＝100">25.9</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01096" area="00000" time="1001" unit="女性＝100">23.2</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01097" area="00000" time="1001" unit="女性＝100">21.4</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01098" area="00000" time="1001" unit="女性＝100">19.6</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01099" area="00000" time="1001" unit="女性＝100">18.5</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01100" area="00000" time="1001" unit="女性＝100">17.3</VALUE>
+            <VALUE cat01="004" cat02="002" cat03="01101" area="00000" time="1001" unit="女性＝100">15.0</VALUE>
+        </DATA_INF>
+    </STATISTICAL_DATA>
+</GET_STATS_DATA>

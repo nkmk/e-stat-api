@@ -40,7 +40,7 @@ with urllib.request.urlopen(url) as response:
 print(type(data))
 # <class 'bytes'>
 
-d = json.loads(data)
+d = json.loads(data.decode())
 
 pprint.pprint(d, depth=3)
 # {'GET_STATS_LIST': {'DATALIST_INF': {'NUMBER': 21,
@@ -50,7 +50,7 @@ pprint.pprint(d, depth=3)
 #                                   'LANG': 'J',
 #                                   'STATS_CODE': '00200524',
 #                                   'SURVEY_YEARS': 2017},
-#                     'RESULT': {'DATE': '2018-05-23T22:28:58.392+09:00',
+#                     'RESULT': {'DATE': '2018-05-24T19:38:42.172+09:00',
 #                                'ERROR_MSG': '正常に終了しました。',
 #                                'STATUS': 0}}}
 
